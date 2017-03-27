@@ -6,7 +6,7 @@
 
 import {NativeModules, NativeAppEventEmitter} from 'react-native';
 
-const RongIMYl = NativeModules.RongIM;
+const RongIMYl = NativeModules.IMModule;
 const rongIMConnectionStatus = 'rongIMConnectionStatus';
 
 export default class YRongIM {

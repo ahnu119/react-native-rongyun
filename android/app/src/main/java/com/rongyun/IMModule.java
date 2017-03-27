@@ -36,7 +36,7 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
 
     @Override
     public String getName() {
-        return "RCTRongIM";
+        return "IMModule";
     }
 
 
