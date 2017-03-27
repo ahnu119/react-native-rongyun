@@ -43,9 +43,8 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
     RongIM client = null;
 
     @ReactMethod
-    public void connect(String token, final Promise promise){
+    public void connect(String token){
         if (client != null) {
-            promise.reject("AlreadyLogined", "Is already logined.");
             return;
         }
         client = RongIM.connect(token, new RongIMClient.ConnectCallback() {
@@ -54,7 +53,6 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
              */
             @Override
             public void onTokenIncorrect() {
-                promise.reject("tokenIncorrect", "Incorrect token provided.");
             }
 
             /**
@@ -64,7 +62,6 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
             @Override
             public void onSuccess(String userid) {
                 Log.i("------------","--------"+userid);
-                promise.resolve(userid);
             }
 
             /**
@@ -73,7 +70,6 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
              */
             @Override
             public void onError(RongIMClient.ErrorCode errorCode) {
-                promise.reject("" + errorCode.getValue(), errorCode.getMessage());
             }
         });
     }
@@ -96,40 +92,33 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
     @ReactMethod
     public void logout(final Promise promise){
         if (client == null) {
-            promise.reject("NotLogined", "Must call connect first.");
             return;
         }
         client.logout();
         client = null;
-        promise.resolve(null);
     }
 
     @ReactMethod
     public void disconnect(final Promise promise){
         if (client == null) {
-            promise.reject("NotLogined", "Must call connect first.");
             return;
         }
         client.disconnect();
-        promise.resolve(null);
     }
 
     @ReactMethod
     public void getLatestMessages(String type, String targetId, int count, final Promise promise) {
         if (client == null) {
-            promise.reject("NotLogined", "Must call connect first.");
             return;
         }
         client.getLatestMessages(Conversation.ConversationType.valueOf(type.toUpperCase()), targetId, count, new RongIMClient.ResultCallback<List<Message>>() {
 
             @Override
             public void onSuccess(List<Message> messages) {
-                promise.resolve(Utils.convertMessageList(messages));
             }
 
             @Override
             public void onError(RongIMClient.ErrorCode errorCode) {
-                promise.reject("" + errorCode.getValue(), errorCode.getMessage());
             }
         });
     }
@@ -137,18 +126,15 @@ public class IMModule extends ReactContextBaseJavaModule implements  RongIMClien
     @ReactMethod
     public void removeConversation(final String type, final String targetId, final Promise promise) {
         if (client == null) {
-            promise.reject("NotLogined", "Must call connect first.");
             return;
         }
         client.removeConversation(Conversation.ConversationType.valueOf(type.toUpperCase()), targetId, new RongIMClient.ResultCallback<Boolean>(){
             @Override
             public void onError(RongIMClient.ErrorCode errorCode) {
-                promise.reject("" + errorCode.getValue(), errorCode.getMessage());
             }
 
             @Override
             public void onSuccess(Boolean message) {
-                promise.resolve(message);
             }
         });
     }

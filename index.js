@@ -9,12 +9,9 @@ import {NativeModules, NativeAppEventEmitter} from 'react-native';
 const RongIM = NativeModules.RongIM;
 const rongIMConnectionStatus = 'rongIMConnectionStatus';
 
-NativeAppEventEmitter.addListener('rongIMConnectionStatus', msg => {
-    eventEmitter.emit('connectionStatus', msg);
-});
 export default class YRongIM {
-    static connect(token,  promise){
-        RongIM.connect(token,promise);
+    static connect(token){
+        RongIM.connect(token);
     }
 
     static openCustomerService(serviceId){
