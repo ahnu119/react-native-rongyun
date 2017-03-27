@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://github.com/ahnu119/react-native-rongyun.git/android/IMLib/libs
+https://github.com/ahnu119/react-native-rongyun.git
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c109784a-ecd6-d914-41e0-ce57b7db7bff
+
+armeabi
+dir
+
+
+
+add
+
+arm64-v8a
+dir
+
+
+
+add
+
+x86
+dir
+
+
+
+add
+
+armeabi-v7a
+dir
+
+
+
+add
+
+Rong_IMLib.jar
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

@@ -1,0 +1,35 @@
+{
+	"name": "rongyun",
+	"version": "0.0.1",
+	"private": true,
+	"description": "React Native下的融云SDK封装",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahnu119/react-native-rongyun.git"
+	},
+	"keywords": [
+		"react",
+		"native",
+		"ios",
+		"android",
+		"rong",
+		"im",
+		"chat"
+	],
+	"author": "ahnu119",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ahnu119/react-native-rongyun/issues"
+	},
+	"peerDependencies": {
+		"react-native": ">=0.18.0"
+	},
+	"homepage": "https://github.com/ahnu119/react-native-rongyun#readme",
+	"dependencies": {
+		"fbemitter": "^2.0.2"
+	}
+}

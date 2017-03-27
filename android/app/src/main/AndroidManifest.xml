@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rongyun"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <activity
+        android:name="com.rongyun.CustomerFragment"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="stateHidden|adjustResize">
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <data
+                android:host="com.rongyun"
+                android:pathPrefix="/conversation/"
+                android:scheme="rong" />
+        </intent-filter>
+    </activity>
+
+    <!-- begin imlib request -->
+    <service
+        android:name="io.rong.imlib.ipc.RongService"
+        android:process=":ipc" >
+    </service>
+    <service android:name="io.rong.imlib.ReConnectService" />
+
+    <receiver android:name="io.rong.imlib.ConnectChangeReceiver" />
+    <service
+        android:name="io.rong.push.PushService"
+        android:process="io.rong.push" >
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <action android:name="io.rong.push" />
+        </intent-filter>
+    </service>
+    <!--融云设置 正式c9kqb3rdkirnj      测试pkfcgjstfbsu8-->
+    <meta-data
+        android:name="RONG_CLOUD_APP_KEY"
+        android:value="${RONG_CLOUD_APP_KEY}" />
+</manifest>

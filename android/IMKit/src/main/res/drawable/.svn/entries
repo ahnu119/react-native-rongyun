@@ -1,0 +1,455 @@
+10
+
+dir
+0
+https://github.com/ahnu119/react-native-rongyun.git/android/IMKit/src/main/res/drawable
+https://github.com/ahnu119/react-native-rongyun.git
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c109784a-ecd6-d914-41e0-ce57b7db7bff
+
+rc_corner_voice_style.xml
+file
+
+
+
+add
+
+rc_notification_connecting_animated.xml
+file
+
+
+
+add
+
+rc_plugin_toggle_selector.xml
+file
+
+
+
+add
+
+rc_corner_location_style.xml
+file
+
+
+
+add
+
+rc_btn_input.xml
+file
+
+
+
+add
+
+rc_cs_group_dialog_cancel_selector.xml
+file
+
+
+
+add
+
+rc_voice_toggle_selector.xml
+file
+
+
+
+add
+
+rc_btn_voice.xml
+file
+
+
+
+add
+
+rc_menu_text_selector.xml
+file
+
+
+
+add
+
+rc_cs_submit_comment.xml
+file
+
+
+
+add
+
+rc_item_top_list_selector.xml
+file
+
+
+
+add
+
+rc_bg_menu.xml
+file
+
+
+
+add
+
+rc_ic_files_selector.xml
+file
+
+
+
+add
+
+rc_selector_title_back_press.xml
+file
+
+
+
+add
+
+rc_cs_group_ok_text_selector.xml
+file
+
+
+
+add
+
+rc_ext_plugin_image_selector.xml
+file
+
+
+
+add
+
+rc_ic_location.xml
+file
+
+
+
+add
+
+rc_sel_picsel_toolbar_back.xml
+file
+
+
+
+add
+
+rc_voice_input_selector.xml
+file
+
+
+
+add
+
+rc_cs_back_selector.xml
+file
+
+
+
+add
+
+rc_an_voice_receive.xml
+file
+
+
+
+add
+
+rc_emoji_grid_item_selector.xml
+file
+
+
+
+add
+
+rc_cs_list_divider_style.xml
+file
+
+
+
+add
+
+rc_edit_text_background_selector.xml
+file
+
+
+
+add
+
+rc_cs_leave_message_btn.xml
+file
+
+
+
+add
+
+rc_cs_group_dialog_ok_selector.xml
+file
+
+
+
+add
+
+rc_item_list_selector.xml
+file
+
+
+
+add
+
+rc_ed_public_service_search_selector.xml
+file
+
+
+
+add
+
+rc_cs_evaluate_selector.xml
+file
+
+
+
+add
+
+rc_cs_corner_single_check_style.xml
+file
+
+
+
+add
+
+rc_bg_mentionlist_item.xml
+file
+
+
+
+add
+
+rc_progress_sending_style.xml
+file
+
+
+
+add
+
+rc_btn_send.xml
+file
+
+
+
+add
+
+rc_cs_ratingbar.xml
+file
+
+
+
+add
+
+rc_btn_public_service_enter_selector.xml
+file
+
+
+
+add
+
+rc_keyboard_selector.xml
+file
+
+
+
+add
+
+rc_sp_grid_mask.xml
+file
+
+
+
+add
+
+rc_menu_background_selector.xml
+file
+
+
+
+add
+
+rc_switch_btn.xml
+file
+
+
+
+add
+
+rc_bg_item.xml
+file
+
+
+
+add
+
+rc_ext_plugin_location_selector.xml
+file
+
+
+
+add
+
+rc_corner_style.xml
+file
+
+
+
+add
+
+rc_selector_grid_camera_mask.xml
+file
+
+
+
+add
+
+rc_white_bg_shape.xml
+file
+
+
+
+add
+
+rc_corner_popup_dialog_style.xml
+file
+
+
+
+add
+
+rc_emotion_toggle_selector.xml
+file
+
+
+
+add
+
+rc_ic_yes_selector.xml
+file
+
+
+
+add
+
+rc_pb_file_download_progress.xml
+file
+
+
+
+add
+
+rc_an_voice_sent.xml
+file
+
+
+
+add
+
+rc_cs_admin_selector.xml
+file
+
+
+
+add
+
+rc_sel_picsel_toolbar_send.xml
+file
+
+
+
+add
+
+rc_bg_sidebar.xml
+file
+
+
+
+add
+
+rc_ic_phone_selector.xml
+file
+
+
+
+add
+
+rc_ic_star_selector.xml
+file
+
+
+
+add
+
+rc_menu_keyboard_selector.xml
+file
+
+
+
+add
+
+rc_btn_public_service_unfollow_selector.xml
+file
+
+
+
+add
+
+rc_cs_group_checkbox_selector.xml
+file
+
+
+
+add
+
+rc_ic_no_selector.xml
+file
+
+
+
+add
+
+rc_ac_btn_file_download_open_button.xml
+file
+
+
+
+add
+
+rc_read_receipt_request_button.xml
+file
+
+
+
+add
+
+rc_send_toggle_selector.xml
+file
+
+
+
+add
+

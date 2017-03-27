@@ -1,0 +1,3 @@
+rootProject.name = 'rongyun'
+
+include ':app', ':IMLib', ':IMKit'

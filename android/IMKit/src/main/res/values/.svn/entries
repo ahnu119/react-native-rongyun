@@ -1,0 +1,133 @@
+10
+
+dir
+0
+https://github.com/ahnu119/react-native-rongyun.git/android/IMKit/src/main/res/values
+https://github.com/ahnu119/react-native-rongyun.git
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c109784a-ecd6-d914-41e0-ce57b7db7bff
+
+rc_attrs.xml
+file
+
+
+
+add
+
+rc_ext_color.xml
+file
+
+
+
+add
+
+rc_ext_dimens.xml
+file
+
+
+
+add
+
+rc_style.xml
+file
+
+
+
+add
+
+rc_extension_config.xml
+file
+
+
+
+add
+
+rc_theme.xml
+file
+
+
+
+add
+
+rc_file_suffix.xml
+file
+
+
+
+add
+
+rc_emoji.xml
+file
+
+
+
+add
+
+rc_config.xml
+file
+
+
+
+add
+
+rc_kit_string.xml
+file
+
+
+
+add
+
+rc_ext_attrs.xml
+file
+
+
+
+add
+
+rc_color.xml
+file
+
+
+
+add
+
+rc_ids.xml
+file
+
+
+
+add
+
+rc_dimens.xml
+file
+
+
+
+add
+
+rc_ext_string.xml
+file
+
+
+
+add
+
