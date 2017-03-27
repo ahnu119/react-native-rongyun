@@ -11,6 +11,7 @@ const rongIMConnectionStatus = 'rongIMConnectionStatus';
 
 export default class YRongIM {
     static connect(token){
+        console.log("---------",token);
         RongIMYl.connect(token);
     }
 

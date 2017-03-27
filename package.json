@@ -26,7 +26,7 @@
 		"url": "https://github.com/ahnu119/react-native-rongyun/issues"
 	},
 	"peerDependencies": {
-		"react-native": ">=0.18.0"
+		"react-native": "0.38.1"
 	},
 	"homepage": "https://github.com/ahnu119/react-native-rongyun#readme",
 	"dependencies": {
