@@ -6,16 +6,16 @@
 
 import {NativeModules, NativeAppEventEmitter} from 'react-native';
 
-const RongIM = NativeModules.RongIM;
+const RongIMYl = NativeModules.RongIM;
 const rongIMConnectionStatus = 'rongIMConnectionStatus';
 
 export default class YRongIM {
     static connect(token){
-        RongIM.connect(token);
+        RongIMYl.connect(token);
     }
 
     static openCustomerService(serviceId){
-        RongIM.openCustomerService(serviceId);
+        RongIMYl.openCustomerService(serviceId);
     }
 
     static addEventListener(handler){
