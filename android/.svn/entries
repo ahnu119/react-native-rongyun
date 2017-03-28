@@ -26,8 +26,36 @@ add
 
 c109784a-ecd6-d914-41e0-ce57b7db7bff
 
+.gradle
+dir
+
+
+
+add
+
 .idea
 dir
+
+
+
+add
+
+IMKit
+dir
+
+
+
+add
+
+IMLib
+dir
+
+
+
+add
+
+android.iml
+file
 
 
 
@@ -40,7 +68,28 @@ dir
 
 add
 
-rongyun.iml
+build
+dir
+
+
+
+add
+
+build.gradle
+file
+
+
+
+add
+
+gradle
+dir
+
+
+
+add
+
+gradle.properties
 file
 
 
@@ -61,7 +110,7 @@ add
 has-props
 has-prop-mods
 
-local.properties
+gradlew.bat
 file
 
 
@@ -75,29 +124,15 @@ dir
 
 add
 
-gradle.properties
+local.properties
 file
 
 
 
 add
 
-gradlew.bat
+rongyun.iml
 file
-
-
-
-add
-
-build.gradle
-file
-
-
-
-add
-
-IMLib
-dir
 
 
 
@@ -105,34 +140,6 @@ add
 
 settings.gradle
 file
-
-
-
-add
-
-gradle
-dir
-
-
-
-add
-
-build
-dir
-
-
-
-add
-
-.gradle
-dir
-
-
-
-add
-
-IMKit
-dir
 
 
 
